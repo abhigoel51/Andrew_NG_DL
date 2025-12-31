@@ -1,2 +1,3 @@
-# Andrew_NG_DL
-Coursera Andrew NG DL course
+# Basic of Neural Network and Deep learning
+
+
