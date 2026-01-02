@@ -2,7 +2,7 @@
 
 ## Gradient descent
 
-**Backpropagation** is basically calculcation of derivatives.
+**Backpropagation** is basically calculcation of derivatives. We get to know how weights affect loss.
 
 <img width="573" height="178" alt="image" src="https://github.com/user-attachments/assets/e3bb8187-6cfb-4f75-962b-5f6ddcadff22" />
 
