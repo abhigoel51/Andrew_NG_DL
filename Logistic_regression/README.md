@@ -56,3 +56,9 @@ print(x)
  [0.13736056 0.82416338 0.54944226]]
 
 ```
+## Bias and Variance
+
+<img width="1250" height="378" alt="image" src="https://github.com/user-attachments/assets/ae8abd65-9525-4fea-a6af-6fd5ecd27587" />
+
+**High bias** means underfitting the data.  
+**Low variance** means overfitting the data.
