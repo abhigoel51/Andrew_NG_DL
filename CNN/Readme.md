@@ -10,7 +10,7 @@ We do convolution of image and filter as shown below, this gives us area where t
 ## Different types of Convolution  
 1. **Padding and then convolution**
 
-   This is done to main the shape of original image. As we perform convolution of image with filter the size of original image reduces. Let's consider a example Image size is 8x8, filter size 3x3 **(generally of odd dimension)** then output image is equal to **n-f+1** i.e. 8-3+1 = 6.  
+   This is done to maintain the shape of original image. As we perform convolution of image with filter the size of original image reduces. Let's consider a example Image size is 8x8, filter size 3x3 **(generally of odd dimension)** then output image is equal to **n-f+1** i.e. 8-3+1 = 6.  
 
    In case of padding we add extra dimensions to the orginal image, generally with zeros. Considering above example but with padding =1, then Output image size will be equal to **n +2p -f +1** i.e. 8 + 2 -3 +1 = 8.
 
@@ -18,3 +18,20 @@ We do convolution of image and filter as shown below, this gives us area where t
 
     In this case the sliding window (strides) of filter by default is considered as 1. But in this case we can consider a different value. With same example as above, if s = 2 then output is  $$\left\lfloor \frac{n + 2p - f}{s} \right\rfloor + 1 $$ i.e. 5.
 
+## Different kinds of layers 
+1. **Conv. Layer**
+2. **Pooling**
+     It helps reduce dimension of the input.
+
+   Further this can be classified into various types :
+   1. **Max pooling** - We choose the max value from the filter size.
+   2. **Average pooling**- We take the average of filter size.
+
+   <img width="930" height="489" alt="image" src="https://github.com/user-attachments/assets/a7aa7963-4938-4ddd-9fe1-9e099f22412b" />
+
+
+### Example of CNN
+
+After Conv layer, pool layer is applied. Generally these both layers are considered as 1 layer as pooling layer does not have its own weights.
+
+<img width="1257" height="607" alt="image" src="https://github.com/user-attachments/assets/10c1a8e0-2de5-42e8-b1fa-02899688c82b" />
