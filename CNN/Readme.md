@@ -35,3 +35,13 @@ We do convolution of image and filter as shown below, this gives us area where t
 After Conv layer, pool layer is applied. Generally these both layers are considered as 1 layer as pooling layer does not have its own weights.
 
 <img width="1257" height="607" alt="image" src="https://github.com/user-attachments/assets/10c1a8e0-2de5-42e8-b1fa-02899688c82b" />
+
+## Different types of Networks  
+
+If a network  architecture is working well for a particular set of images, it is expected to work for the other set of images.  
+So it is good practice to use already known networks. Following are some examples.  
+
+1. **LeNet-5**
+2. **AlexNet**
+3. **VGG**
+4. **ResNet**
