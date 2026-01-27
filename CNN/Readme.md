@@ -45,3 +45,20 @@ So it is good practice to use already known networks. Following are some example
 2. **AlexNet**
 3. **VGG**
 4. **ResNet**
+
+## Inception Network 
+
+In this case Input shape is **28x28x192**, filter is **5x5** with **32** filters. To keep Output of dimension **28x28x32**, we need to use paading of 2 and stride =1 for the input (Check formulas discussed above).  
+
+To achieve output dimension of 28x28x32, we will have to use a filter of dimension 5x5x192 with 32 filters. Think of it as, we are calculating  5x5x192 conv with 28x28x192, this will give us 28x28 as we are using padding =2 and stride =1. The same thing is done for 32 filters.
+
+<img width="810" height="420" alt="image" src="https://github.com/user-attachments/assets/a134f937-38cb-4f1d-8b62-20f001b7e7c4" />
+
+So computing cost is **120M** parameters which is quite high.
+
+### Solution to above issue
+
+As we can see the Compution of parameters have come down drastically by 10 times.
+
+<img width="645" height="401" alt="image" src="https://github.com/user-attachments/assets/bbfae4fd-8810-4ff8-8451-f395231e1009" />
+
