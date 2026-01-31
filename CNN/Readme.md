@@ -62,3 +62,19 @@ As we can see the Compution of parameters have come down drastically by 10 times
 
 <img width="645" height="401" alt="image" src="https://github.com/user-attachments/assets/bbfae4fd-8810-4ff8-8451-f395231e1009" />
 
+## ResNet
+
+When training a very deep neural network, the complexity can be too high causing underfitting.
+
+<img width="557" height="330" alt="image" src="https://github.com/user-attachments/assets/e924ea0e-fcbc-44b0-b222-c4c7d3860d3e" />
+
+There can be 2 types of skip connections in ResNet:
+
+1. **Identity**
+
+   <img width="564" height="272" alt="image" src="https://github.com/user-attachments/assets/62ba4e2c-565d-4663-ac72-d2133e68ea1c" />
+
+2. **Conv2D**
+
+   <img width="572" height="206" alt="image" src="https://github.com/user-attachments/assets/2afab0a6-ad19-4fe8-be46-9b6c003ddebc" />
+
